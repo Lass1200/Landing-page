@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --color :white;
+    --back-color:#1f2937;
+    --font-section: roboto
+}
+body{
+    display: flex;
+    flex-direction: column;
+
+}
+header{
+    color: var(--color);
+    background-color: var(--back-color);
+    padding: 1rem;
+    font-family:var(--font-section);
+
+
+}
+.section1txt{
+    margin-bottom: 20px;
+}
+.navigation{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 10px;
+}
+.partie-logo{
+    font-size: 24px;
+    font-weight: 700;
+}
+
+nav ul{
+    display: flex;
+    list-style-type: none;
+    gap: 15px;
+}
+/* section 1 */
+main .section1 > div > h1{
+    font-size: 2rem;
+}
+.section1{
+ 
+    background-color: var(--back-color);
+    color: var(--color);
+    display: flex;
+    justify-content: center;
+    padding: 20px 10px 50px;
+    gap: 30px;
+    font-family:var(--font-section);
+
+}
+button{
+
+    background-color: green;
+    padding: 10px;
+    width: 150px;
+    border-radius: 20px;
+    border: none;
+}
+.lright, .dleft{
+    max-width: 36%;
+}
+.section2 h1 {
+    font-size: 32px;
+    margin-bottom: 32px;
+}
+.section2{
+    text-align: center;
+    padding: 3rem;
+    font-family:var(--font-section);
+
+  
+
+}
+.divs{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.div p {
+    font-size: 0.8rem;
+    
+}
+.encadré{
+    border: 1px solid green;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+}
+.divs > .div{
+    max-width: 20%;
+}
+
+
+.section3{
+    background-color: #E5E7EB;
+    padding: 100px;
+    font-style: italic;
+    font-size: 1.5rem;
+    color: #1f2937;
+    
+}
+.section3 p{
+    margin-top: 10px;
+    text-align: end;
+    font-weight: 0;
+    text-align: left;
+
+}
+h4{
+    text-align: end;
+}
+.section4{
+    padding: 30px;
+    color: var(--color);
+    
+}
+.greenback{
+    background-color: green;
+    border-radius:20px;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+.greenback button{
+    color: var(--color);
+    border: 1px solid white;
+}
+footer{
+    background-color: var(--back-color);
+    color: var(--color);
+    padding: 20px;
+    text-align: center;
+}
